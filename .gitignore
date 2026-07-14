@@ -1,0 +1,28 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local datasets and generated experiment output
+data/
+datasets/
+outputs/
+logs/
+runs/
+*.npy
+*.npz
+
+# Local secrets and configuration
+.env
+.env.*
